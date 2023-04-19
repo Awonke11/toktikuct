@@ -8,10 +8,12 @@ import {MdPassword} from "react-icons/md";
 import { UserDetails } from '@/types/types';
 import useRandom from '@/hooks/useRandom';
 import {FormEvent, useState} from "react";
+import { useRouter } from 'next/router';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const router = useRouter();
   const randomId = useRandom();
   const [userDetails, setUserDetails] = useState<UserDetails>({
       accountId: randomId,
@@ -25,12 +27,13 @@ export default function Home() {
 
   const submit = async (e: FormEvent) => {
     e.preventDefault();
-    const results = await fetch(" https://8f7b-196-47-228-190.ngrok-free.app/api/account/add", {
-      method: "POST",
-      body: JSON.stringify(userDetails)
-    });
-    const response = results.json();
-    console.log(response);
+    // const results = await fetch(" https://8f7b-196-47-228-190.ngrok-free.app/api/account/add", {
+    //   method: "POST",
+    //   body: JSON.stringify(userDetails)
+    // });
+    // const response = results.json();
+    // console.log(response);
+    router.push("/home")
   }
 
   return (

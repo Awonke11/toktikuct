@@ -18,7 +18,12 @@ const videosList = [
     {
         title: "Video Title 3",
         description: "some description",
-        link: "https://youtube.com/shorts/gVS5wQc1KLU?feature=share"
+        link: "https://youtube.com/shorts/5TBEQ6XLqlE?feature=share"
+    },
+    {
+        title: "Video Title 4",
+        description: "some description",
+        link: "https://youtube.com/shorts/m0L6vmGFxAc?feature=share"
     },
 ]
 
