@@ -1,0 +1,30 @@
+.otherSideBar {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.otherSideBarTitle {
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: var(--title-font);
+    text-align: right;
+}
+
+.otherSideBarContent {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.otherSideBarContentTitle {
+    font-size: 1.6rem;
+    font-family: var(--title-font);
+}
+
+.otherSideBarContentAccounts {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}

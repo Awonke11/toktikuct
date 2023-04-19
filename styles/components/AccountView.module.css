@@ -1,0 +1,66 @@
+.accountView {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accountViewProfile {
+    height: 7rem;
+    width: 7rem;
+    background-color: rgb(167, 167, 167);
+    border-radius: 50%;
+    margin-bottom: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #000000;
+    font-size: 1.5rem;
+}
+
+.accountViewTitle {
+    font-size: 1.1rem;
+    line-height: 90%;
+}
+
+.accountViewProfession {
+    font-size: .9rem;
+    margin-bottom: 1rem;
+}
+
+.accountViewStatus {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.accountViewStatusContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accountViewStatusContentNumber {
+    font-size: 1.3rem;
+    line-height: 90%;
+}
+
+.accountViewStatusContentText {
+    font-size: .7rem;
+}
+
+.accountViewButton {
+    width: 100%;
+    border-radius: var(--sec-br);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #000000;
+    padding: .8rem;
+    text-decoration: none;
+    font-size: .9rem;
+}
