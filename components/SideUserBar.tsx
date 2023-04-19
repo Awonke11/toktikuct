@@ -8,7 +8,7 @@ const SideUserBar = () => {
             <Link href="/" className={styles.sideUserBarLink}>
                 <h1 className={styles.sideUserBarLinkText}>TokTik</h1>
             </Link>
-            <AccountView />
+            <AccountView width={"100%"} show={false} />
         </section>
     )
 }

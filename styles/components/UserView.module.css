@@ -1,12 +1,12 @@
-.accountView {
+.userView {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.accountViewProfile {
-    height: 7rem;
-    width: 7rem;
+.userViewProfile {
+    height: 15rem;
+    width: 15rem;
     background-color: rgb(167, 167, 167);
     border-radius: 50%;
     margin-bottom: 1rem;
@@ -16,25 +16,25 @@
     justify-content: center;
 
     color: #000000;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
-.accountViewTitle {
+.userViewTitle {
     font-size: 1.1rem;
     line-height: 90%;
 }
 
-.accountViewProfession {
+.userViewProfession {
     font-size: .9rem;
     margin-bottom: 1rem;
 }
 
-.accountViewDescription {
+.userViewDescription {
     text-align: center;
     margin-bottom: 2rem;
 }
 
-.accountViewStatus {
+.userViewStatus {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -42,22 +42,22 @@
     margin-bottom: 1.5rem;
 }
 
-.accountViewStatusContent {
+.userViewStatusContent {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.accountViewStatusContentNumber {
+.userViewStatusContentNumber {
     font-size: 1.3rem;
     line-height: 90%;
 }
 
-.accountViewStatusContentText {
+.userViewStatusContentText {
     font-size: .7rem;
 }
 
-.accountViewButton {
+.userViewButton {
     width: 100%;
     border-radius: var(--sec-br);
     display: flex;

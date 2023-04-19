@@ -1,0 +1,22 @@
+.video {
+    height: 900px;
+    width: 100%;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.videoInfo {
+    width: 40%;
+}
+
+.videoInfoTitle {
+    font-size: 1.4rem;
+}
+
+.videoInfoText {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,22 @@
+.userNavigation {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}
+
+.userNavigationLink {
+    color: #000000;
+    text-decoration: none;
+}
+
+.userNavigationLinkText {
+    font-size: 3rem;
+    font-family: var(--title-font);
+}
+
+.userNavigationTitle {
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: var(--title-font);
+    text-align: right;
+}
